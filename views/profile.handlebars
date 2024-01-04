@@ -1,0 +1,44 @@
+<!--<h1>Tu perfil</h1>
+<p>Nombre: {{user.nombre}}</p>
+<p>Apellido: {{user.apellido}}</p>
+<p>Correo electronico: {{user.email}}</p>
+
+<form action="/logout" method="post">
+  <button type="submit">Desloguearme!</button>
+</form>!-->
+
+<h1 class="animate__animated animate__fadeInTopLeft">Tu Perfil</h1>
+			<hr>
+			<div class="contenedor_contacto" id="formularioContacto">
+				<form class="animate__animated animate__fadeInTopLeft form", action="/logout" method="post">
+					<p>Nombre: {{user.nombre}}</p>
+          <p>Apellido: {{user.apellido}}</p>
+          <p>Correo electronico: {{user.email}}</p>
+          <!--<label>Email :</label>
+					<input type="text" id="email" placeholder="Escribe Tu Email" maxlength="40" size="50"/>
+					<br>
+					<br>
+					<label>Password :</label>
+					<input type="text" id="password" placeholder="Escribe Tu Apellido" maxlength="40" size="50"/>
+					<br>
+					<br>
+					<label>Email :</label>
+					<input type="email" id="email" placeholder="Escribe Tu Email" maxlength="40" size="50"/>
+					<br>
+					<small id="mensaje"></small>
+					<br>
+					<br>
+					<label>Desea Recibir Novedades?</label>
+					<br>
+					<br>
+					<input type="checkbox" id="novedades"> 
+					<br>
+					<br>
+					<textarea name="" cols="50" rows="10"> Comentarios</textarea>
+					<br>
+					<br>!-->
+					<input type="submit" value="Desloguearme" class="btn btn-success" href="/logout"/>
+					<!--<input type="button" value="Borrar" id="borrar_contacto" class="btn btn-danger"/>!-->
+				</form>
+        
+			</div>

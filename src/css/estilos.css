@@ -1,0 +1,348 @@
+
+/*----------------GENERAL---------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    font-size: 82.5%;
+}
+
+.container{
+    background-image: linear-gradient(90deg,#6D05F9,#D3ACF9,#D8F9F2,#0AA280);
+    border-radius: 10px;
+}
+header{
+    border-radius: 10px;
+    padding: 5px;
+}
+header img{
+    border-radius: 10px;
+}
+.Menu nav
+{
+	display: flex;
+    justify-content: center;
+    background-color: #F1E0F9;
+	width: 98%;
+	height: 37px;
+    margin-left: 10px;
+    margin-right: 20px;
+	font-size: 19px;
+    border: outset;
+    border-radius: 10px;
+}
+.Menu ul
+{
+	text-align: center;
+	justify-content: Center;
+	list-style: none;
+    text-align: center;
+}
+.Menu li {
+    padding: 2px 10px 0 10px;
+    display: inline-block;
+}
+.Menu a
+{
+	text-decoration: none;
+	border-color: #5E06C6;
+	color: #5E06C6;
+}
+.Menu a:hover
+{
+	color:#F1E0F9; 
+	background-color:#5E06C6;
+}
+*h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: rgb(37, 1, 83);
+    
+}
+footer {
+    
+    width: 95%;
+    margin: 20px 20px 20px 35px;
+  }
+  
+  .redes {
+    width: 100%;
+    height: 12%;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  .redes h4, .redes p {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .redes ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+  }
+  .redes a {
+    border: 1px outset;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px 3px 3px 3px;
+  }
+  .redes a:hover {
+    color: #F1E0F9;
+    background-color: #5E06C6;
+  }
+/*--------------INICIO----------------*/
+.contenedor_inicio{
+    width: 95%;
+    height: 105%;
+    margin: auto;
+    display: flex;
+}
+  
+.contenedor_imagenes {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    padding-top: 100px;
+    padding-left: 50px;
+    grid-gap: 4px;
+    flex-direction: column;
+}
+  
+.imgface, .imgmariposa, .imgabstracto {
+    width: 280px;
+    height: 180px;
+    padding: 50px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+    
+  .contenedor_parrafo{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    grid-gap: 2px;
+    align-items: center;
+}
+  
+  .p_inicio{
+    width: 500px;
+    height: 95%;
+    padding: 100px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Sans Serif','Times New Roman'; 
+}
+  
+b {
+    font-family: "Freestyle Script";
+    font-size: 55px;
+    font-style: italic;
+    color: #6D05F9;
+  }
+  
+
+/*--------------VENTAS----------------*/
+
+.boton_carro{
+    justify-content: flex-end;
+    margin-left: 63em;
+}
+
+#cuenta-carrito{
+    background-color: #ee6130;
+    border-radius: 100%;
+    display: inline-block;
+    width: 20px;
+    line-height: 20px;
+    aspect-ratio: 1;
+    text-align: center;
+}
+.container nav table{
+   
+    height: 50px;
+   
+}
+
+.table tr td{
+    list-style: none;
+    padding: 2rem;
+    font-weight: bold;
+    
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: rgb(37, 1, 83);
+    
+}
+
+
+.grid{
+    display: grid;
+    max-width: 1100px;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(280px,280px));
+    padding-bottom: 50px;
+   
+}
+
+.card{
+    border: solid medium rgb(37, 1, 83);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(37, 1, 83); 
+    transition: 200ms;
+}
+
+.card:hover{
+    border: solid medium rgb(37, 1, 83);
+    border-radius: 10px;
+    translate: 0 -10px;
+    box-shadow: 0 10px 5px rgb(37, 1, 83); 
+}
+
+.card-img-top{
+    width: 100%;
+    height: 180px;
+    padding: 10 10 10 10;
+    border-radius: 10px;
+    
+}
+
+.card-body{
+    padding: 15px;
+    
+}
+
+.card-title{
+    font-size: 1.6rem;
+}
+
+.card p{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: right;
+
+}
+
+.card button{
+    width: 100%;
+    border: none;
+    background-color:rgb(78, 14, 198);
+    font-size:1.1rem;
+    margin-bottom: 5px;
+}
+
+.card.button:hover{
+    background-color: #D3ACF9;
+    transition: all .3s;
+}
+
+
+#tablaVentana td:nth-child(1){
+    padding-left: 25px;
+}
+
+#tablaVentana td:nth-child(4){
+    padding-left: 55px;
+}
+
+#tablaVentana .Accion{
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color:#fff;
+    margin-left: 10px;
+}
+
+
+/*-------------CONTACTO-------------*/
+html{
+    font-size: 82.5%;
+}
+header{
+    border-radius: 10px;
+    padding: 5px;
+}
+header img{
+    border-radius: 10px;
+}
+.container{
+    background-image: linear-gradient(90deg,#6D05F9,#D3ACF9,#D8F9F2,#0AA280);
+    border-radius: 10px;
+}
+
+.Menu nav
+{
+	display: flex;
+    justify-content: center;
+    background-color: #F1E0F9;
+	width: 98%;
+	height: 37px;
+    margin-left: 10px;
+    margin-right: 20px;
+	font-size: 19px;
+    border-radius: 10px;
+}
+.Menu ul
+{
+	text-align: center;
+	justify-content: Center;
+	list-style: none;
+    text-align: center;
+}
+.Menu li {
+    padding: 2px 10px 0 10px;
+    display: inline-block;
+}
+.Menu a
+{
+	text-decoration: none;
+	border-color: #5E06C6;
+	color: #5E06C6;
+}
+.Menu a:hover
+{
+	color:#F1E0F9; 
+	background-color:#5E06C6;
+}
+.contenedor_contacto {
+    
+    width: 48%;
+    height: 100%;
+    margin: auto;
+     
+}
+
+.form {
+    
+    height: 100%;
+    margin: auto;
+    padding-top: 15px;
+    padding-left: 50px;
+  }
+  
+  label {
+    display: block;
+    width: 200px;
+    height: 25px;
+    font-family: "Sans Serif", "Times New Roman";
+    font-size: 18px;
+  }
+  
+  input {
+    height: 30px;
+  }
